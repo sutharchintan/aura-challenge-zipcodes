@@ -1,7 +1,9 @@
-const { handler } = require("./index");
+const { GetZipcodeData } = require("./handler");
 
 describe("basic tests", () => {
   test("handler function exists", () => {
-    expect(typeof handler).toBe("function");
+    var t = index.GetZipcodeData();
+    console.log(t);
+    expect(typeof GetZipcodeData).toBe("function");
   });
 });

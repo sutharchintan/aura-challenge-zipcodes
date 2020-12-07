@@ -7,12 +7,27 @@
     "npm": ">=6.0.0"
   },
   "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^4.5.0",
     "jest": "^26.0.1",
-    "prettier": "^1.19.1"
+    "nodemon": "^2.0.6",
+    "prettier": "^1.19.1",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^4.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-react": "^2.0.1"
+  },
   "scripts": {
     "format:fix": "prettier --write **/*.{js,ts,md}",
-    "test": "jest"
-  }
+    "test": "jest",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://localhost:3001/"
 }

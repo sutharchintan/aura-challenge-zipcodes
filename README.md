@@ -88,3 +88,8 @@ After you submit the completed project, we will schedule a follow-up code-review
 | :------------------- | :--------------------------- |
 | `npm run format:fix` | format files with "prettier" |
 | `npm run test`       | execute tests with "jest"    |
+
+## UI Test
+
+ - run command `npm start` in one terminal to start react server.
+ - run command `node server.js` in other terminal to start node.js server.

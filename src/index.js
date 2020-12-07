@@ -1,4 +1,5 @@
-// lambda-like handler function
-module.exports.handler = async event => {
-  // do stuff...
-};
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App/App.js';
+
+ReactDOM.render(<App />, document.getElementById('app'));
