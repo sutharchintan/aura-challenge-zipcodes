@@ -19,7 +19,13 @@ class App extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <FilteredData zipcodes={this.state.filteredData}></FilteredData>
+                {this.state.filteredData ?
+                    this.state.filteredData.length
+                        ? <FilteredData zipcodes={this.state.filteredData}></FilteredData>
+                        : <span>No data available</span>
+                    : <span>No data available</span>
+                }
+
             </div>
         );
     }
